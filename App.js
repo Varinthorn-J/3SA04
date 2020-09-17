@@ -7,7 +7,7 @@ export default function App() {
   
   return (
     <View style={styles.container}>
-          <Weather ipcode = "83120" />
+          <Weather zipcode = "83120" />
           <StatusBar style="auto" />
     </View>
   );
