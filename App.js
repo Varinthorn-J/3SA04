@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     flex: 1,
     borderWidth:2,
     backgroundColor: 'pink',
-    alignItems: 'center',
+   // alignItems: 'center',
     justifyContent: 'center',
     
 
