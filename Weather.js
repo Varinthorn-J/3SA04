@@ -6,7 +6,7 @@ export default function Weather(props) {
         <View>
              <Text style = {{fontSize: 30}}> Weather {props.Zipcode} </Text>
         
-             <Text style = {{fontSize: 30}}>  {6135512053} </Text>
+             <Text style = {{fontSize: 20}}>             {6135512053} </Text>
         
 
         </View>
