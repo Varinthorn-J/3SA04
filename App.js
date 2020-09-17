@@ -7,7 +7,7 @@ export default function App() {
   
   return (
     <View style={styles.container}>
-          <Weather Zipcode = "83120" />
+          <Weather ipcode = "83120" />
           <StatusBar style="auto" />
     </View>
   );
@@ -16,7 +16,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    borderWidth:5,
+    borderWidth:2,
     backgroundColor: 'pink',
     alignItems: 'center',
     justifyContent: 'center',
@@ -24,5 +24,3 @@ const styles = StyleSheet.create({
 
   },
 })
-
-
