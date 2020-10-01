@@ -14,7 +14,7 @@ export default function Weather(props) {
 
     useEffect(() => {
         console.log(`fetching data with zipCode = ${props.zipCode}`)
-        if (props.zipCode) {   
+        if (props.zipCode) {
 
             fetch(`http://api.openweathermap.org/data/2.5/weather?q=${props.zipCode},th&units=metric&APPID=${apiKey}`)
                 .then((response) => response.json())
@@ -40,6 +40,7 @@ export default function Weather(props) {
                     <Text style={styles.medium}>Zip Code: {props.zipCode}</Text>
                     <Forecast {...forecastInfo} />
                 </View>
+
             </ImageBackground>
         </View>
     );
@@ -51,7 +52,7 @@ const styles = StyleSheet.create({
         height: '100%',
     },
     cover: {
-        backgroundColor: '#000',
+        backgroundColor: 'steelblue',
         width: '100%',
         height: 300,
         opacity: 0.5,
@@ -60,6 +61,6 @@ const styles = StyleSheet.create({
     },
     medium: {
         fontSize: 20,
-        color: '#FFF',
+        color: 'white',
     }
 });

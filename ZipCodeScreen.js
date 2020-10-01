@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     code: {
         fontSize: 20,
         flex:0.7,
-        backgroundColor: 'white',
+        backgroundColor: 'steelblue',
 
     },
 });
